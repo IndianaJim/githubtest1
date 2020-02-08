@@ -32,10 +32,10 @@
   </div>
 
   <script>
-    document.getElementById('getText').addEventListener('click', getText);
-    document.getElementById('getUsers').addEventListener('click', getUsers);
+    //document.getElementById('getText').addEventListener('click', getText);
+    //document.getElementById('getUsers').addEventListener('click', getUsers);
     document.getElementById('getPosts').addEventListener('click', getPosts);
-    document.getElementById('addPost').addEventListener('submit', addPost);
+    //document.getElementById('addPost').addEventListener('submit', addPost);
 
     function getText(){
       // fetch('sample.txt')
@@ -78,9 +78,6 @@
       .then((res) => res.json())
       .then((data) => {
         let output = '<h2 class="mb-4">Lots</h2>';
-
-        console.log(data)
-
         data.forEach(function(post){
           output += `
             <div class="card card-body mb-3">
