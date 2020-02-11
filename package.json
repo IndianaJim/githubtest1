@@ -1,0 +1,11 @@
+{
+  "name": "githubtest1",
+  "version": "1.0.0",
+  "description": "testing github and JS and Node",
+  "main": "apptest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim",
+  "license": "ISC"
+}
